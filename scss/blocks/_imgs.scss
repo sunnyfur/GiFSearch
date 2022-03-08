@@ -1,0 +1,23 @@
+.res__img {
+    object-fit: cover;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.wrapp_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapp_row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
