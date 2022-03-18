@@ -8,7 +8,7 @@ document.getElementById("idFormSearch").addEventListener("submit", (e) => {
     const key = "uXh8ejgAtghfQ8eMXS4AEUJ6qiZ1FGjJ";
     (oldSearch != searchText) ? (myOffset < (4999 - 5)) ? myOffset += 5: offset = 0: offset = 0;
 
-    fetch(`https://api.giphy.com1/v1/gifs/search?api_key=${key}&q=${searchText}&limit=5&offset=${myOffset}&rating=g&lang=ru`)
+    fetch(`https://api.giphy.com/v1/gifs/search?api_key=${key}&q=${searchText}&limit=5&offset=${myOffset}&rating=g&lang=ru`)
         .then(response => {
             if (response.ok) {
                 return response.json()
